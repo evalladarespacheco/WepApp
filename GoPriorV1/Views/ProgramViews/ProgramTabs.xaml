@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:GoPriorV1.Views.ProgramViews"
+             x:Class="GoPriorV1.Views.ProgramViews.ProgramTabs">
+    
+    <local:FirstToThird Title="1st to 3rd"/>
+    <local:FourthToSix Title="4th to 6th"/>
+    <local:SeventhToTwelve Title="7th to 12th"/>
+    <local:Internship Title="Maryland Intership"/>
+    
+  
+</TabbedPage>

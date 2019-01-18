@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:local="clr-namespace:GoPriorV1.Views.EventsViews"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="GoPriorV1.Views.EventsViews.EventsTabs">
+    
+    <local:Timeline Title="Timeline"/>
+    <local:EventsList Title="Events List"/>
+        
+    
+</TabbedPage>

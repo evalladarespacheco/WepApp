@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MenuItem\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\ProgramViews\" />
+    <Folder Include="Views\EventsViews\" />
+    <Folder Include="Views\ShopViews\" />
+    <Folder Include="Views\NewsViews\" />
+    <Folder Include="Views\GalleryViews\" />
+    <Folder Include="Views\SupportViews\" />
+    <Folder Include="Views\ContactUsViews\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MenuItem\PageItem.cs" />
+    <Compile Remove="Views\View2.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\View2.xaml" />
+    <EmbeddedResource Remove="Views\ProgramView.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+</Project>

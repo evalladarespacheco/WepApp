@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:local="clr-namespace:GoPriorV1.Views.ShopViews"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="GoPriorV1.Views.ShopViews.ShopTabs">
+    <local:Shop Title="Shop"/>
+    <local:ShoppingCart Title="Shopping Cart"/>
+    <local:WishList Title="Wishlist"/>
+    <local:CompareProducts Title="Compare Products"/>
+    
+   
+</TabbedPage>
